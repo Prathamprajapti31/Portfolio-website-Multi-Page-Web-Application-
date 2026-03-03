@@ -1,0 +1,182 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+    overflow: scroll;
+
+}
+
+/* ----------------------  NAVBAR  ------------------------------- */
+/* navbar CSS */
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+/* left part of nav */
+.head-left {
+    width: 500px;
+    height: 70px;
+    background-color: black;
+    margin-left: -40px;
+    display: flex;
+}
+
+.p1 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.p2 {
+    color: white;
+    font-size: 0.75rem;
+    margin-left: 10px;
+    opacity: 0.6;
+    margin-top: -10px;
+
+}
+
+.head-left h1 {
+    color: #0865a2;
+    margin-left: 30px;
+}
+
+/* right part of  nav */
+.head-right {
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+}
+
+.nav-option a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+
+.nav-option a:hover {
+
+    color: #0865a2;
+    text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+
+.space {
+    height: 25px;
+    width: 100%;
+}
+
+/* ---------------- RESUME SECTION ---------------- */
+
+.resume-container {
+    width: 85%;
+    margin: 100px auto;
+}
+
+.resume-container h1 {
+    color: aqua;
+}
+
+.subtitle {
+    color: #bfe9ff;
+    margin-top: -10px;
+}
+
+/* Resume Card */
+
+.resume-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 30px;
+    background: rgba(0, 180, 255, 0.08);
+    border: 1px solid rgba(0, 180, 255, 0.4);
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(0, 255, 255, 0.15);
+}
+
+.resume-left, .resume-right {
+    width: 45%;
+    color: #bfe9ff;
+}
+
+.resume-left h2 {
+    color: white;
+}
+
+.resume-left h3,
+.resume-right h3 {
+    color: aqua;
+    margin-top: 20px;
+}
+
+.skill-tags span {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    background: rgba(0, 180, 255, 0.2);
+    border: 1px solid rgba(0, 180, 255, 0.4);
+    font-size: 0.85rem;
+}
+
+/* Resume Preview */
+
+.resume-preview {
+    margin-top: 50px;
+}
+
+.resume-preview h2 {
+    color: aqua;
+}
+
+.pdf-container {
+    margin-top: 20px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 180, 255, 0.4);
+}
+
+.pdf-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* Download Button */
+
+.download-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid #0865a2;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.download-btn:hover {
+    box-shadow: 0 0 40px #0865a2;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.bottomtext {
+    text-align: center;
+    color: white;
+    opacity: 0.3;
+    margin-top: 50px;
+}

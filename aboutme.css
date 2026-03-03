@@ -1,0 +1,160 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+    overflow: scroll;
+
+}
+
+/* ----------------------  NAVBAR  ------------------------------- */
+/* navbar CSS */
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+/* left part of nav */
+.head-left {
+    width: 500px;
+    height: 70px;
+    background-color: black;
+    margin-left: -40px;
+    display: flex;
+}
+
+.p1 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.p2 {
+    color: white;
+    font-size: 0.75rem;
+    margin-left: 10px;
+    opacity: 0.6;
+    margin-top: -10px;
+
+}
+
+.head-left h1 {
+    color: #0865a2;
+    margin-left: 30px;
+}
+
+/* right part of  nav */
+.head-right {
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+}
+
+.nav-option a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+
+.nav-option a:hover {
+
+    color: #0865a2;
+    text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+
+.space {
+    height: 25px;
+    width: 100%;
+}
+
+/* ------------------css of below nav--------------- */
+.outer-container {
+    height: 1150px;
+    width: 80%;
+    background: rgba(0, 180, 255, 0.08);
+    margin-left: 10%;
+    margin-top: 50px;
+    border: 1px solid rgba(0, 180, 255, 0.4);
+    box-shadow: 0 0 50px rgba(0, 255, 255, 0.248);
+    border-radius: 20px;
+}
+
+#firsth1 {
+    color: aqua;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+#out-one {
+    width: 85%;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #bfe9ff;
+    font-size: 1.05rem;
+
+}
+
+#out-one b {
+
+    color: white;
+}
+
+/*  css for education heading and its card */
+#secondh1 {
+    color: aqua;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+#out-two {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 75%;
+    padding: 20px 10px 10px 10px;
+    /* color:  rgba(255, 255, 255, 0.908); */
+    color: #bfe9ff;
+    background: rgba(0, 180, 255, 0.08);
+    border: 1px solid rgba(0, 180, 255, 0.4);
+}
+#out-two i{
+    color: rgb(0, 234, 255);
+    font-size: 3rem;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+#out-two div{
+    margin-left: 20px;
+}
+#out-two b{
+    /* color: aqua; */
+    color: black;
+    font-size: 1.37rem;
+    font-weight: 800;
+}
+#out-two:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 50px  rgba(0, 170, 255, 0.248);
+    cursor: pointer;
+}
+
+.bottomtext{
+    color: white;
+    opacity: 0.3;
+    font-size: 1rem;
+    text-align: center;
+}

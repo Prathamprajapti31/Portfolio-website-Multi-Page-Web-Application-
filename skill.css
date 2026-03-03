@@ -1,0 +1,302 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+    overflow: scroll;
+   
+}
+/* ----------------------  NAVBAR  ------------------------------- */
+/* navbar CSS */
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position:fixed;
+    top: 0;
+    z-index: 100;
+}
+/* left part of nav */
+.head-left{
+    width: 500px;
+    height: 70px;
+    background-color:black;
+    margin-left: -40px;
+    display: flex;
+}
+.p1{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.p2{
+    color: white;
+    font-size: 0.75rem;
+    margin-left: 10px;
+    opacity: 0.6;
+    margin-top: -10px;
+
+}
+.head-left h1{
+    color: #0865a2;
+    margin-left: 30px;
+}
+
+/* right part of  nav */
+.head-right{
+    display: flex;
+    align-items: center;
+    margin-left:170px ;
+}
+.nav-option a{
+    text-decoration: none;
+    color: white;
+     margin-left: 50px;
+}
+
+.nav-option a:hover{
+   
+     color:#0865a2;
+    text-decoration: underline;
+}
+/* ------------------------------------------------------------------------------- */
+
+
+.space{
+    height: 25px;
+    width: 100%;
+}
+.s-navbar{
+      height: 70px;
+    width: 100%;
+    background-color: black;
+}
+.skill-container h1{
+    color: aqua;
+    margin-left: 20px;
+
+}
+.skill-container p{
+    color:white;;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: -18px;
+}
+
+.skills{
+    height: 400px;
+    width: 80%;
+    background: rgba(0, 180, 255, 0.08);
+    border: 1px solid rgba(0, 180, 255, 0.4);
+    box-shadow: 0 0 50px  rgba(0, 255, 255, 0.248);
+    border-radius: 20px;
+   margin-left:10% ;
+}
+
+/*  skills disciption part */
+
+.skill-discription{
+    height: 400px;
+    width: 85%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.s-dicription{
+    margin-top: 20px;
+    height: 150px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.558);
+    margin-left: 30px;
+    border-radius: 15px;
+   
+    
+}
+.s-dicription p{
+    color:white;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    font-weight: 700;
+
+}
+
+.s-dicription a,li{
+    text-decoration: none;
+    color: white;
+    /* opacity: 0.8; */
+    font-weight: 100;
+
+}
+.s-dicription a:hover{
+    /* color: rgba(0, 179, 255, 0.515); */
+    color: green;
+    text-decoration: underline;
+}
+
+.s-lower-divs{
+    display: flex;
+    justify-content:center; 
+    
+}
+
+.five{
+    margin-bottom: 20px;
+}
+
+.bottomtext{
+    color: white;
+    opacity: 0.3;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/*  last ma main skills vada circle nu css */
+.skills{
+    display: flex;
+}
+.s-btn{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.758);
+    border-radius: 50%;
+    border:1px solid rgba(0, 180, 255, 0.4);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.s-btn img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.s-btn:hover{
+    box-shadow:0 0 30px #0865a2;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+/* .skills{
+    box-shadow: 0 0 50px  rgba(0, 255, 255, 0.248);
+} */
+
+#html{
+    margin-left: 50px;
+    margin-top: 70px;
+}
+#c{
+    margin-top: 20px;
+}
+#css{
+    margin-top: 230px;
+}
+#git{
+    margin-top: 150px;
+}
+#java{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#js{
+    margin-top: 260px;
+}
+#react{
+    margin-top: 150px;
+}
+#ssms{
+    margin-left: 50px;
+}
+
+/*  animation add karyu badha button mate */
+
+/* 1 - HTML */
+#html {
+    animation: moveOne 6s ease-in-out infinite;
+}
+
+@keyframes moveOne {
+    0%,100% { transform: translate(0,0); }
+    50% { transform: translate(15px,-15px); }
+}
+
+/* 2 - CSS */
+#css {
+    animation: moveTwo 7s ease-in-out infinite;
+}
+
+@keyframes moveTwo {
+    0%,100% { transform: translate(0,0); }
+    25% { transform: translate(-10px,10px); }
+    75% { transform: translate(10px,-10px); }
+}
+
+/* 3 - C */
+#c {
+    animation: moveThree 8s ease-in-out infinite;
+}
+
+@keyframes moveThree {
+    0%,100% { transform: translate(0,0); }
+    50% { transform: translate(0,-15px); }
+}
+
+/* 4 - Git */
+#git {
+    animation: moveFour 5s ease-in-out infinite;
+}
+
+@keyframes moveFour {
+    0%,100% { transform: translate(0,0); }
+    50% { transform: translate(-20px,0); }
+}
+
+/* 5 - Java */
+#java {
+    animation: moveFive 9s ease-in-out infinite;
+}
+
+@keyframes moveFive {
+    0%,100% { transform: translate(0,0); }
+    25% { transform: translate(15px,10px); }
+    75% { transform: translate(-15px,-10px); }
+}
+
+/* 6 - JS */
+#js {
+    animation: moveSix 6s ease-in-out infinite;
+}
+
+@keyframes moveSix {
+    0%,100% { transform: translate(0,0); }
+    50% { transform: translate(0,20px); }
+}
+
+/* 7 - SSMS */
+#ssms {
+    animation: moveSeven 7s ease-in-out infinite;
+}
+
+@keyframes moveSeven {
+    0%,100% { transform: translate(0,0); }
+    50% { transform: translate(12px,12px); }
+}
+
+/* 8 - React */
+#react {
+    animation: moveEight 10s ease-in-out infinite;
+}
+
+@keyframes moveEight {
+    0%,100% { transform: translate(0,0); }
+    20% { transform: translate(-15px,10px); }
+    60% { transform: translate(15px,-10px); }
+}

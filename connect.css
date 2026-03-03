@@ -1,0 +1,199 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+/* ----------------------  NAVBAR  ------------------------------- */
+/* navbar CSS */
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+/* left part of nav */
+.head-left {
+    width: 500px;
+    height: 70px;
+    background-color: black;
+    margin-left: -40px;
+    display: flex;
+}
+
+.p1 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.p2 {
+    color: white;
+    font-size: 0.75rem;
+    margin-left: 10px;
+    opacity: 0.6;
+    margin-top: -10px;
+
+}
+
+.head-left h1 {
+    color: #0865a2;
+    margin-left: 30px;
+}
+
+/* right part of  nav */
+.head-right {
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+}
+
+.nav-option a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+
+.nav-option a:hover {
+
+    color: #0865a2;
+    text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+
+.space {
+    height: 25px;
+    width: 100%;
+}
+
+/* ------------------------------------connect part------------------------------------------- */
+
+.connect-contianer{
+    width: 52%;
+    height: 100vh;
+   
+    margin-top: 20px;
+   
+    margin-left: 300px;
+    /* background-color: white; */
+  
+   
+}
+ .connect-contianer h1{
+    color: aqua;
+    margin-left: 100px;
+}
+ .connect-contianer p{
+    
+    color:  #bfe9ff;
+    margin-top: 10px;
+    margin-left: 20px;
+
+} 
+
+/* loggos */
+
+
+.option{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+}
+.option img{
+    height: 55px;
+    width: 55px;
+}
+
+.one{
+     height: 55px;
+     width: 55px;
+     background-color: black;
+     border-radius: 50%;
+     
+}
+
+.one i{
+    color: white;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.facebook{
+    margin-left:8px ;
+}
+.one:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #0865a2;
+    cursor: pointer;
+    
+}
+.input{
+    
+    color:  #bfe9ff;
+     background: rgba(0, 180, 255, 0.08);
+    border: 1px solid rgba(0, 180, 255, 0.4);
+    border-radius: 5px;
+     width: 400px;
+     height: 30px;
+  
+     padding-left: 15px;
+   
+     margin-left: 130px;
+     margin-top: 15px;
+}
+#third{
+    height: 100px;
+    resize: none;
+}
+
+.input::placeholder{
+     color:  #bfe9ff;
+}
+
+.input-conatiner{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+#message-btn{
+    background-color:black;
+    color:  white;
+   border: 1px solid black;
+   border-radius: 5px;
+   width: 420px;
+   height: 40px;
+    margin-top: 20px;
+    margin-left: 130px;
+    font-size: 1rem;
+}
+#message-btn:hover{
+    box-shadow: 0 0 50px  rgba(0, 170, 255, 0.656);
+    cursor: pointer;
+    
+}
+#message-btn:active{
+    transform: scale(0.9);
+}
+.bottomtext{
+    color: white;
+    opacity: 0.3;
+    font-size: 1rem;
+    text-align: center;
+}
+
